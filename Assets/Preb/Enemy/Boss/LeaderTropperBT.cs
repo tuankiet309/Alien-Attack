@@ -17,8 +17,8 @@
             BTTask_Evade evadeTask = new BTTask_Evade(this);
             root_Selector.AddChild(evadeTask);
             
-            //using skill
-            BTTask_Skill1 skill1Node = new BTTask_Skill1(this, dropProjectilePrefab, numberOfProjectiles, spawnRadius);
+            ///using skill
+            BTTask_SkillGroup skill1Node = new BTTask_SkillGroup(this, dropProjectilePrefab, numberOfProjectiles, spawnRadius);
             root_Selector.AddChild(skill1Node);
         
             // Attack Target

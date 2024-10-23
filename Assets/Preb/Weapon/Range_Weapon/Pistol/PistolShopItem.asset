@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3ef4bfe5f481748b98f04ad09075f9, type: 3}
+  m_Name: PistolShopItem
+  m_EditorClassIdentifier: 
+  Title: Pistol
+  Price: 50
+  Item: {fileID: 1649253544098459075, guid: 42f72c21dc93e384c8294840423a0932, type: 3}
+  ItemIcon: {fileID: 21300000, guid: 5ba7e842cba823a4e83b4150cd38ff24, type: 3}
+  Description: 'Standard Weapon
+
+    DPS: 16'

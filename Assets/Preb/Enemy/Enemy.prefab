@@ -430,4 +430,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rewardEntries:
   - reward: {fileID: 2547651132713203865, guid: 5ae7aa63a193bb44ca65dc85b55cb0cb, type: 3}
-    chance: 24
+    chance: 0
+  - reward: {fileID: 2210951302669289804, guid: 8bdf4d3a9ee84d74baf372044c1bf4d7, type: 3}
+    chance: 0
+  - reward: {fileID: 6695176044860204012, guid: 04db861a0e89bb5469c59ccd5ffd958a, type: 3}
+    chance: 0
+  - reward: {fileID: 2974525157424561097, guid: ebc689799735a8f40826cf097e03de5b, type: 3}
+    chance: 0

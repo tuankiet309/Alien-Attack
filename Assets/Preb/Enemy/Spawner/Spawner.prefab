@@ -200,15 +200,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
       propertyPath: rewardEntries.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
       propertyPath: rewardEntries.Array.data[0].chance
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
+      propertyPath: rewardEntries.Array.data[0].reward
+      value: 
+      objectReference: {fileID: 2974525157424561097, guid: ebc689799735a8f40826cf097e03de5b, type: 3}
+    - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
       propertyPath: rewardEntries.Array.data[1].chance
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
       propertyPath: rewardEntries.Array.data[1].reward
@@ -216,10 +220,18 @@ PrefabInstance:
       objectReference: {fileID: 2210951302669289804, guid: 8bdf4d3a9ee84d74baf372044c1bf4d7, type: 3}
     - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
       propertyPath: rewardEntries.Array.data[2].chance
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
       propertyPath: rewardEntries.Array.data[2].reward
+      value: 
+      objectReference: {fileID: 2210951302669289804, guid: 8bdf4d3a9ee84d74baf372044c1bf4d7, type: 3}
+    - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
+      propertyPath: rewardEntries.Array.data[3].chance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
+      propertyPath: rewardEntries.Array.data[3].reward
       value: 
       objectReference: {fileID: 2210951302669289804, guid: 8bdf4d3a9ee84d74baf372044c1bf4d7, type: 3}
     m_RemovedComponents:

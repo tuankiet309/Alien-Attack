@@ -8,6 +8,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1680466407460756985, guid: 132f7666c2499e54c9f64a92a119241b, type: 3}
+      propertyPath: creditReward
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680466407460756985, guid: 132f7666c2499e54c9f64a92a119241b, type: 3}
+      propertyPath: healthReward
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680466407460756985, guid: 132f7666c2499e54c9f64a92a119241b, type: 3}
+      propertyPath: staminaReward
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 5915269002833672715, guid: 132f7666c2499e54c9f64a92a119241b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -14,7 +14,7 @@ public abstract class Behavior_Tree : MonoBehaviour
     get { return board; } 
     }
 
-    public virtual void Start()
+    public void Start()
     {
         treeInterface = GetComponent<BehaviorTreeInterface>();
         ConstructTree(out root_Node);
@@ -36,7 +36,7 @@ public abstract class Behavior_Tree : MonoBehaviour
     
 
     // Update is called once per frame
-    public virtual void Update()
+    public void Update()
     {
         root_Node.UpdateNode();
        

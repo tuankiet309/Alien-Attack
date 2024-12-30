@@ -6,6 +6,7 @@ using UnityEngine;
 public class Perception_Component : MonoBehaviour //Script tri giác dùng để quản lí thông tin đưa về từ các giác quan
 {
     [SerializeField] List<Sense_Component> senses = new List<Sense_Component>(); // Danh sách các giác quan của object này
+
     LinkedList<Perception_Stimuli> currentlyPerceivedStimuli = new LinkedList<Perception_Stimuli>(); //Danh sách các stimuli đang được cảm nhận
 
     Perception_Stimuli targetStimuli; //Mục tiêu cảm nhận chính hiện tại để thực hiên các hành động liên quan

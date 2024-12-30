@@ -34,7 +34,7 @@ public class HealthComponent : MonoBehaviour, IRewardListener
     {
         this.health += amount;
     }
-    
+
     protected void InvokeOnHealthChange(float health, float delta, float maxHealth)
     {
         onHealthChange?.Invoke(health, delta, maxHealth);
@@ -49,15 +49,15 @@ public class HealthComponent : MonoBehaviour, IRewardListener
     {
         onHealthEmpty?.Invoke(killer);
     }
-    
+
     protected void PlayHitAudio()
     {
-        if(!audioSource.isPlaying)
+        if (!audioSource.isPlaying)
         {
             audioSource.PlayOneShot(hit);
         }
     }
-    
+
     protected void PlayDeathAudioAtPos(Vector3 pos)
     {
         GameStatic.PlayAudioAtLoc(death, pos, volume);
@@ -66,7 +66,7 @@ public class HealthComponent : MonoBehaviour, IRewardListener
     public virtual void ChangeHealth(float amount, GameObject Instigator)
     {
         if (amount == 0 || health == 0) return;
-        
+
         health += amount; // thay đổi máu bằng damage
         health = Mathf.Clamp(health, 0, maxHealth);
 
@@ -101,4 +101,3 @@ public class HealthComponent : MonoBehaviour, IRewardListener
         InvokeOnHealthChange(health, reward.healthReward, maxHealth); // Gọi sự kiện thông qua phương thức bảo vệ
     }
 }
-

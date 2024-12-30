@@ -190,6 +190,10 @@ PrefabInstance:
       propertyPath: sight_Distance
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 6078957687616805619, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
+      propertyPath: sight_Half_Angle
+      value: 45
+      objectReference: {fileID: 0}
     - target: {fileID: 7006442707439898011, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
       propertyPath: m_Name
       value: Greater Spitter
@@ -216,18 +220,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
       propertyPath: rewardEntries.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
       propertyPath: rewardEntries.Array.data[0].chance
-      value: 62
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
       propertyPath: rewardEntries.Array.data[1].chance
-      value: 100
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
       propertyPath: rewardEntries.Array.data[1].reward
+      value: 
+      objectReference: {fileID: 2210951302669289804, guid: 8bdf4d3a9ee84d74baf372044c1bf4d7, type: 3}
+    - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
+      propertyPath: rewardEntries.Array.data[2].chance
+      value: 77
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
+      propertyPath: rewardEntries.Array.data[2].reward
+      value: 
+      objectReference: {fileID: 6695176044860204012, guid: 04db861a0e89bb5469c59ccd5ffd958a, type: 3}
+    - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
+      propertyPath: rewardEntries.Array.data[3].chance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
+      propertyPath: rewardEntries.Array.data[3].reward
       value: 
       objectReference: {fileID: 2210951302669289804, guid: 8bdf4d3a9ee84d74baf372044c1bf4d7, type: 3}
     m_RemovedComponents: []

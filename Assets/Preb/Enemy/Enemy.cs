@@ -45,7 +45,8 @@ public abstract class Enemy : MonoBehaviour,BehaviorTreeInterface,ITeamInterface
 
     }
 
-    protected virtual void TargetChange(GameObject target, bool sense)
+
+    private void TargetChange(GameObject target, bool sense)
     {
         if(sense)
         {
@@ -58,7 +59,7 @@ public abstract class Enemy : MonoBehaviour,BehaviorTreeInterface,ITeamInterface
         }
     }
 
-    protected virtual void TakenDamage(float health, float delta, float maxHealth, GameObject Instigator) 
+    private void TakenDamage(float health, float delta, float maxHealth, GameObject Instigator) 
     {
         
     }

@@ -54,7 +54,6 @@
                 }
                 onTakeDamamge?.Invoke(GetHealth, amount, GetMaxHealth, armorValue, maxArmorValue, Instigator);
 
-
                 this.PlayHitAudio();
             }
 

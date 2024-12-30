@@ -139,6 +139,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6078957687616805619, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
+      propertyPath: sight_Distance
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6078957687616805619, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
+      propertyPath: sight_Half_Angle
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 7006442707439898011, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
       propertyPath: m_Name
       value: Chomper
@@ -170,6 +178,18 @@ PrefabInstance:
     - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
       propertyPath: rewardEntries.Array.data[0].chance
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
+      propertyPath: rewardEntries.Array.data[1].chance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
+      propertyPath: rewardEntries.Array.data[2].chance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435958812249190108, guid: c56259e4c99dc5543a3961ee988626c1, type: 3}
+      propertyPath: rewardEntries.Array.data[3].chance
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

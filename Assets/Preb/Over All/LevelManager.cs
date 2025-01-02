@@ -53,13 +53,12 @@ public class LevelManager : ScriptableObject
         {
             if (operation.progress >= 0.9f)
             {
-                WaitASec();
                 // Activate the scene once it's ready
                 operation.allowSceneActivation = true;
             }
             yield return null;
         }
-
+        WaitASec();
         // Deactivate the loading canvas after loading
         LoadingPanel.Instance?.gameObject.SetActive(false);
         // Resume the game state

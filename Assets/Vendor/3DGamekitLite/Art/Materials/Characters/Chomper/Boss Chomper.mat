@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Chomper_Body_Mat
+  m_Name: Boss Chomper
   m_Shader: {fileID: 4800000, guid: df778dfc69de7fb48809501a413b8bbf, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -137,7 +137,7 @@ Material:
     m_Colors:
     - _Addition: {r: 0, g: 0, b: 0, a: 0}
     - _BoundingBox: {r: 1, g: 2.1, b: 1, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.47592562, g: 0.55864525, b: 0.8773585, a: 1}
     - _Color1: {r: 1, g: 1, b: 1, a: 1}
     - _Color2: {r: 0.9926466, g: 4.00507, b: 5, a: 1}
     - _EdgeColor1: {r: 0.3764706, g: 2, b: 0, a: 1}

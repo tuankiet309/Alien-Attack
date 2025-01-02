@@ -29,11 +29,13 @@ public class BlackBoard
         val = default(T);
         if (Black_Board_Data.ContainsKey(key))
         {
-
-            val = (T)Black_Board_Data[key];
-            return true;
+            if (Black_Board_Data[key] is T value) // Safely check if it can be cast to T
+            {
+                val = value;
+                return true;
+            }
         }
-        return false; // Key not found
+        return false; // Key not found or type mismatch
     }
     public bool HasKey(string key)
     {
